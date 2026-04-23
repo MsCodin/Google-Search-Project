@@ -4,9 +4,9 @@ body {
 
 .nav-links {
   text-align: right;
-  position: absolute;
-  top: 10px;
-  right: 20px;
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
 }
 
 .nav-links a {
