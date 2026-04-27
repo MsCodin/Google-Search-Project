@@ -7,18 +7,22 @@ body {
 }
 
 .search-container {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 12px;
+  width: 80%;
+}
+
+.field {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
 input[type="text"] {
-  border-radius: 24px;
+  border-radius: 4px;
   border: 1px solid black;
-  padding: 10px 20px;
-  width: 500px;
+  padding: 12px;
   font-size: 16px;
+  width: 100%;
   outline: none;
 }
 
@@ -40,7 +44,7 @@ input[type="submit"] {
 }
 
 .nav-links a {
-  color: black;
+  color: #1a73e8;
   font-size: 18px;
   margin-left: 15px;
 }

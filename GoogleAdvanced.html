@@ -6,16 +6,23 @@
   </head>
   <body>
     <form action="https://www.google.com/search">
-      <div>
-        <input type="text" name="as_q" placeholder="All these words" />
-        <input
-          type="text"
-          name="as_epq"
-          placeholder="This exact word or phrase"
-        />
-        <input type="text" name="as_oq" placeholder="Any of these words" />
-        <input type="text" name="as_eq" placeholder="None of these words" />
-        <input type="submit" value="Google Advanced Search" />
+      <div class="search-container">
+        <div class="feild">
+          <label>all these words:</label>
+          <input type="text" name="as_q" />
+        </div>
+        <div class="field">
+          <label>this exact word or phrase:</label>
+          <input type="text" name="as_epq" />
+        </div>
+        <div class="field">
+          <label>any of these words:</label>
+          <input type="text" name="as_oq" />
+        </div>
+        <div class="field">
+          <label>none of these words:</label>
+          <input type="text" name="as_eq" />
+        </div>
       </div>
     </form>
 
