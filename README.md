@@ -1,4 +1,4 @@
-# Google Search Clone
+# Google Search Project
 
 A front-end clone of Google Search built with HTML and CSS.
 
